@@ -41,7 +41,10 @@ Runs on: `http://localhost:5173`
 
 AI tools were used mainly to speed up frontend scaffolding and UI development. The core backend logic, API design, state validation, and inventory update workflows were implemented and reviewed manually.
 
+## API Testing
+
+For manual endpoint validation without the UI, please refer to the [`API_TESTING.md`](./API_TESTING.md) file included in the root of this repository. It contains a complete list of ready-to-use `cURL` commands to test the entire lifecycle of a Purchase Order.
+
 ## Notes
 
 Since the application uses an in-memory database, all data is reset whenever the backend server restarts. In a production environment, this would be replaced with a persistent database such as PostgreSQL.
-```
